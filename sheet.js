@@ -15,5 +15,6 @@ module.exports = class Sheet {
     async getRows(i){
         const sheet = this.doc.sheetsByIndex[i];
         const rows = await sheet.getRows();
+        return rows;
     }
 }
