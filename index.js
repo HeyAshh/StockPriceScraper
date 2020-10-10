@@ -14,5 +14,7 @@ async function getPrice(url) {
    const sheet = new Sheet();
    await sheet.load();
    const stocks = await sheet.getRows(0);
+   for (let stock of stocks) {
+       const price = await getPrice(stock.url);
+   }
 })()
-//contribution test
