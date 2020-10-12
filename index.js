@@ -17,5 +17,6 @@ async function getPrice(url) {
    const dayPrices = {};
    for (let stock of stocks) {
        const price = await getPrice(stock.url);
+       dayPrices[stock.ticker] = price;
    }
 })()
