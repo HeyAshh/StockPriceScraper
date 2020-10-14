@@ -19,4 +19,5 @@ async function getPrice(url) {
        const price = await getPrice(stock.url);
        dayPrices[stock.ticker] = price;
    }
+   dayPrices.date = new Date().toDateString();
 })()
