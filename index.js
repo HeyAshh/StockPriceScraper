@@ -20,4 +20,5 @@ async function getPrice(url) {
        dayPrices[stock.ticker] = price;
    }
    dayPrices.date = new Date().toDateString();
+   await sheet.addRows([dayPrices], 1);
 })()
