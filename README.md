@@ -8,4 +8,4 @@ Purpose of the project is to practice Node.js and better understand modern web s
 
 *contribution test*
 
-[Google Sheet!](https://docs.google.com/spreadsheets/d/1Rjp0G53TJZHPMftACUZtPGZbvRJZ5tWMpjz00NowOA4/edit?usp=sharing) to view final result.
+[Google Sheet](https://docs.google.com/spreadsheets/d/1Rjp0G53TJZHPMftACUZtPGZbvRJZ5tWMpjz00NowOA4/edit?usp=sharing) to view final result.
